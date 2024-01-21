@@ -1,0 +1,27 @@
+{
+  "name": "split-bengali-word",
+  "version": "1.0.0",
+  "description": "Split a bengali word by letters.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "start": "node dist/index.js",
+    "prestart": "npm run build",
+    "build": "tsc",
+    "test:watch": "jest --watch",
+    "test": "jest --coverage"
+  },
+  "author": "Sibaprasad Maiti <sibu.it13@gmail.com>",
+  "license": "ISC",
+  "repository": "https://github.com/sibu-github/split-bengali-word",
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.3.3"
+  }
+}
